@@ -8,7 +8,7 @@ iOS                       | Android
 
 ## To Run Locally
 - Clone the Repo
-    `git clone https://github.com/Abhayprince/TabbarBadgeShellMAUI `
+    `git clone https://github.com/Abhayprince/TabbarBadgeShellMAUI.git`
     
 - Restore the packages (Rebuild the solution)
 - Build the solution/project
