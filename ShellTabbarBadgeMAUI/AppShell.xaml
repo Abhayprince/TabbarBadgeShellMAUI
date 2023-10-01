@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShellTabbarBadgeMAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellTabbarBadgeMAUI"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent
+        Title="Home"
+        Icon="home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+        <ShellContent
+        Title="Cart"
+        Icon="cart"
+        ContentTemplate="{DataTemplate local:CartPage}"
+        Route="CartPage" />
+
+        <ShellContent
+        Title="Profile"
+        Icon="user"
+        ContentTemplate="{DataTemplate local:ProfilePage}"
+        Route="ProfilePage" />
+
+    </TabBar>
+
+</Shell>
+
